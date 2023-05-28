@@ -1,0 +1,95 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+*{
+    box-sizing: inherit;
+    position: relative;
+}
+.contact{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 70%;
+    right: 1%;
+    z-index: 999;
+}
+.call{
+
+    font-size: 3rem;
+    background-color: rgb(27, 185, 27);
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+    animation: attractive;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.message{
+    font-size: 3rem;
+    background-color: rgb(38, 204, 38);
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    text-align: center;
+    line-height: 60px;
+    animation: attractive;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes attractive {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 0.8;
+    }
+    100%{
+        scale:1;
+    }
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+.grid__column-3{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 25%;
+}
+.grid__column-9{
+    padding-left: -12px;
+    padding-right: -12px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid__column-9-3{
+    padding-left: 9px;
+    padding-right: 9px;
+    width: 33.3334%;
+}
+
+
+

@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="./layout/css/trangchu.css">
+    <link rel="stylesheet" href="./layout/css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./layout/font/fontawesome-free-6.4.0-web/css/all.min.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="contact">
+        <div class="call"><a href=""><i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i></a></div>
+        <div class="message"><a href=""><i class="fa-solid fa-messages-question" style="color: #5685d7;"></i></a></div>
+    </div>
+    <!-- header cua trang chu -->
+    <div class="header">
+        <div class="grid">
+            <div class="header__top">
+                <p class="header__top-item">  Tìm hiểu thêm    | 
+                    <a href="" class="header__top-item-icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="header__top-item-icon"><i class="fa-brands fa-square-instagram"></i></a>
+                </p>
+                <ul class="header__top-list-item">
+                    <li class="header__top-item"><a href="#form-login">ĐĂNG KÍ</a></li>
+                    <li style="font-size: 1.6rem; font-weight: bolder; color: antiquewhite;">|</li>
+                    <li class="header__top-item"><a href="#form-regis">ĐĂNG NHẬP</a>
+                        <a href="#form-regis" class="header__top-item-icon"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__middle">
+                <div class="logo"><img class="logo__brand" src="/IMAGES/TOP.png" alt="">
+                <img class="logo__slogan" src="/IMAGES/logo-slogan4.png" alt=""></div>
+                <div class="header__search">
+                    <input class="header__search-text" type="text" required="true" placeholder="Tìm kiếm sản phẩm">
+                    <div class="icon-find">
+                        <a href=""><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a>
+                    </div>
+                </div>
+                <div class="header__middle-icon">
+                    <a href=""><i class="fa-solid fa-cart-shopping" style="color: #ffffff; margin-right: 45px;"></i></a>
+                    <a href=""><i class="fa-solid fa-bell" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+            <div class="header__navbar">
+                <nav class="header__navbar-block">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item"><a href="#">TRANG CHỦ</a>
+                            <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="trang-laptop.html">LAPTOP<i class="fa-solid fa-laptop" style="color: #ffffff;"></i></a>
+                            <ul class="header__navbar-item1">
+                                <li class="header__navbar-item1-child"><a href="trang-laptop.html">DELL</a></li>
+                                <li class="header__navbar-item1-child"><a href="">LENOVO</a></li>
+                                <li class="header__navbar-item1-child"><a href="">ASUS</a></li>
+                                <li class="header__navbar-item1-child"><a href="">APPLE</a></li>
+                                <li class="header__navbar-item1-child"><a href="">ACER</a></li>
+                                <li class="header__navbar-item1-child"><a href="">HP</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item" ><a href="trang-phukien">PHỤ KIỆN<i class="fa-solid fa-headphones" style="color: #ffffff;"></i></a>
+                            <ul class="header__navbar-item1">
+                                <li class="header__navbar-item1-child"><a href="">TAI NGHE</a></li>
+                                <li class="header__navbar-item1-child"><a href="">CHUỘT</a></li>
+                                <li class="header__navbar-item1-child"><a href="">BÀN PHÍM</a></li>
+                                <li class="header__navbar-item1-child"><a href="">BALO-TÚI XÁCH</a></li>
+                                <li class="header__navbar-item1-child"><a href="">GIÁ ĐỠ</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__navbar-item"><a href="">MÁY CŨ<i class="fa-solid fa-laptop-medical" style="color: #ffffff;"></i> </a>
+                        </li>
+                        <li class="header__navbar-item"><a href="">KHUYẾN MÃI<i class="fa-solid fa-percent" style="color: #ffffff;"></i></a>
+                        </li>
+                        <li class="header__navbar-item"><a href="trang-tuvan.html">TƯ VẤN <i class="fa-sharp fa-solid fa-headset" style="color: #fcf7f7;"></i></a>
+                            <ul class="header__navbar-item1">
+                                <li class="header__navbar-item1-child"><a href="">Tổng đài hỗ trợ</a></li>
+                                <li class="header__navbar-item1-child"><a href="">Đặt câu hỏi</a></li>
+                                <li class="header__navbar-item1-child"><a href="">Mẹo</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Noi dung trang chu -->
+    <!-- <div class="call"><a href=""><i class="fa-solid fa-phone" style="color: #000000;"></i></a></div> -->
+    <div class="content">
+        <div class="grid"><br>
+            <!-- banner dau tien -->
+            <div class="content__banner-top">
+                <img src="/IMAGES/banner1.jpg" alt="">
+                <!-- <img src="/IMAGES/banner2.jpg" alt="">
+                <img src="/IMAGES/banner3.jpg" alt=""> -->
+            </div>
+            <br><hr>
+            <div class="list__laptop-brand">
+                <ul>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/7/15/637619564183327279_HP@2x.png" alt="HP"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340493755614653_MSI@2x.jpg" alt="MSI"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340494668267616_Lenovo@2x.jpg" alt="Lenovo"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340494666704995_Acer@2x.jpg" alt="Acer"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340494666861275_Dell@2x.jpg" alt="Dell"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2022/1/4/637769104385571970_Macbook-Apple@2x.jpg" alt="Apple (MacBook)"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/9/16/637674058450623615_Gigabyte@2x.jpg" alt="Gigabyte"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2021/11/22/637732077455069770_Asus@2x.jpg" alt="Asus"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340493755614653_MSI@2x.jpg" alt="MSI"></a></li>
+                    <li><a href=""><img src="https://images.fpt.shop/unsafe/fit-in/108x40/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/8/26/637340491898901930_Masstel@2x.jpg" alt="Masstel"></a></li>
+                </ul>
+            </div>
+            <!-- Tieu de san pham ban chay -->
+            <div class="title"><p class="head">SẢN PHẨM BÁN CHẠY: </p></div><hr>
+            <!-- HANG SAN PHAM BAN CHAY 1-->
+                <div class="grid__row">
+                    <div class="button__next">
+                        <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                        <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                        <button class="price">15.990.000đ</button>
+                        <span class="price-old">20.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                            <p>Intel, Core i5, 10300H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>NEW</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                        <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                        <button class="price">19.990.000đ</button>
+                        <span class="price-old">23.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                            <p>Intel, Core i5, 12500H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                        <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                        <button class="price">15.990.000đ</button>
+                        <span class="price-old">20.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                            <p>Intel, Core i5, 10300H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                        <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                        <button class="price">15.990.000đ</button>
+                        <span class="price-old">20.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                            <p>Intel, Core i5, 10300H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__row">
+                    <div class="button__next">
+                        <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                        <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W iodfjdjbg</div>
+                        <button class="price">15.990.000đ</button>
+                        <span class="price-old">20.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                            <p>Intel, Core i5, 10300H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                        <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                        <button class="price">19.990.000đ</button>
+                        <span class="price-old">23.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                            <p>Intel, Core i5, 12500H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                        <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                        <button class="price">15.990.000đ</button>
+                        <span class="price-old">20.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                            <p>Intel, Core i5, 10300H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                    <div class="grid__column-3">
+                        <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                        <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                        <button class="price">15.990.000đ</button>
+                        <span class="price-old">20.990.000đ</span>
+                        <div class="infomation-product">
+                            <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                            <p>Intel, Core i5, 10300H</p>
+                            <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                            <p>SSD 512 GB</p>
+                            <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                        </div>
+                        <div class="lable__sale">
+                            <span>HOT</span>
+                        </div>
+                        <div class="lable__call-action">
+                            <span>MUA NGAY</span>
+                        </div>
+                    </div>
+                </div>
+<!-- <br><br> -->
+            <!-- HANG SAN PHAM BAN CHAY 2 -->
+
+            <!-- Tieu de san pham noi bat -->
+            <div class="title"><p class="head">SẢN PHẨM NỔI BẬT :</p></div>
+            <hr>
+            <!-- HANG SAN PHAM NOI BAT 1 -->
+            <div class="grid__row three">
+                <div class="button__next">
+                    <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>NEW</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                    <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                    <button class="price">19.990.000đ</button>
+                    <span class="price-old">23.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                        <p>Intel, Core i5, 12500H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+            </div>
+            <!-- HANG SAN PHAM NOI BAT 2 -->
+            <div class="grid__row four">
+                <div class="button__next">
+                    <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>NEW</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                    <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                    <button class="price">19.990.000đ</button>
+                    <span class="price-old">23.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                        <p>Intel, Core i5, 12500H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="banner-mid"><img src="/IMAGES/banner-mid.jpg" alt=""></div>
+            <!-- Tieu de phan LAPTOP -->
+            <div class="title"><p class="head">LAPTOP :</p></div>
+            <hr>
+            <!-- SAN PHAM LAPTOP -->
+            <div class="grid__row">
+                <div class="button__next">
+                    <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>NEW</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                    <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                    <button class="price">19.990.000đ</button>
+                    <span class="price-old">23.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                        <p>Intel, Core i5, 12500H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Tieu de phan PHU KIEN -->
+            <div class="title"><p class="head">PHỤ KIỆN :</p></div>
+            <hr>
+            <!-- SAN PHAM PHU KIEN -->
+            <div class="grid__row">
+                <div class="button__next">
+                    <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>NEW</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                    <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                    <button class="price">19.990.000đ</button>
+                    <span class="price-old">23.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                        <p>Intel, Core i5, 12500H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Tieu de phan MAY CU -->
+            <div class="title"><p class="head">MÁY CŨ :</p></div>
+            <hr>
+            <!-- SAN PHAM MAY CU -->
+            <div class="grid__row">
+                <div class="button__next">
+                    <a href=""><i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>NEW</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product" style="background-image: url(../IMAGES/product/anh31.jpg);"></div>
+                    <div class="name-product">Laptop Gigabyte Gaming G5 GE-51VN263SH i5 12500H</div>
+                    <button class="price">19.990.000đ</button>
+                    <span class="price-old">23.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz,  Anti-Glare LED-Backlit Display</p>
+                        <p>Intel, Core i5, 12500H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 3200 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce RTX 3050 4GB; Intel Iris Xe Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+                <div class="grid__column-3">
+                    <div class="image-product"  style="background-image: url(../IMAGES/product/anh11.jpg);"></div>
+                    <div class="name-product">Laptop Asus TUF Gaming FX506LHB-HN188W i5</div>
+                    <button class="price">15.990.000đ</button>
+                    <span class="price-old">20.990.000đ</span>
+                    <div class="infomation-product">
+                        <p>15.6 inch, 1920 x 1080 Pixels, IPS, 144 Hz, Anti-glare LED-backlit</p>
+                        <p>Intel, Core i5, 10300H</p>
+                        <p>8 GB (1 thanh 8 GB), DDR4, 2933 MHz</p>
+                        <p>SSD 512 GB</p>
+                        <p>NVIDIA GeForce GTX 1650 4GB; Intel UHD Graphics</p>
+                    </div>
+                    <div class="lable__sale">
+                        <span>HOT</span>
+                    </div>
+                    <div class="lable__call-action">
+                        <span>MUA NGAY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="footer__text">
+                    <ul class="footer__text-1">
+                        <li><a href="">Giới thiệu về cửa hàng</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Quy chế hoạt động</a></li>
+                        <li><a href="">Kiểm tra hóa đơn điện tử</a></li>
+                        <li><a href="">Tra cứu thông tin bảo hành</a></li>
+                        <li><a href="">Câuu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+                    <div class="footer__text">
+                        <ul class="footer__text-1">
+                            <li><a href="">Tin tuyển dụng</a></li>
+                            <li><a href="">Tin khuyến mãi</a></li>
+                            <li><a href="">Hướng dẫn mua online</a></li>
+                            <li><a href="">Hướng dẫn mua trả góp</a></li>
+                            <li><a href="">Chính sách trả góp</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__text">
+                        <ul class="footer__text-2">
+                            <li>Hệ thống cửa hàng</li>
+                            <li>Chính sách đổi trả</li>
+                            <li>Hệ thống bảo hành</li>
+                            <li>Giới thiệu máy đổi trả</li>
+                        </ul>
+                    </div>
+                    <div class="footer__text">
+                        <ul class="footer__text-2">
+                            <li>Tư vấn mau hàng (miễn phí)</li>
+                            <li>Hỗ trợ kỹ thuật</li>
+                            <li>Góp ý , khiếu nại</li>
+                        </ul>
+                    </div>
+                    <div class="footer-img">
+                        <img src="/IMAGES/footer-1.png" alt="" id="img0-footer">
+                        <img src="/IMAGES/footer-2.png" alt="" id="img1-footer">
+                        <img src="/IMAGES/footer-3.png" alt="" id="img2-footer">
+                    </div>
+                </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7329983316167!2d108.24961158656679!3d15.975313854550455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142117848746707%3A0xac53f6f281a23eaa!2zS8OtIFTDumMgWMOhIC0gVmlldGhhbml0!5e0!3m2!1svi!2s!4v1684134807512!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- form -->
+    <!-- ĐĂNG NHẬP -->
+    <div class="login">
+         <!-- login -->
+        <div class="modal"  id="form-login">
+                 <div class="modal-overlay"></div>
+                <div class="modal-body">
+                    <div class="modal-body-content">
+                        <div class="head-form">
+                            <a style="position: absolute;text-decoration: none;
+                            font-size: 2.4rem;color: #ffffff;top: 1px; right: 4px;" href="#">&times;</a>
+                            <p class="head-form-log">ĐĂNG KÍ</p>
+                            <a href="#form-regis" class="head-form-reg" style="box-sizing: border-box;padding-right : 25px;"><span style="font-size: 1.1rem;color: #ffffff;">Bạn đã có tài khoản ? </span> ĐĂNG NHẬP</a>
+                        </div>
+                        <div class="content-reg">
+                            <div class="group-input">
+                                <input type="text" id="name" name="name"  placeholder="Họ Tên" required="true"
+                                class="reg-input">
+                                <br>
+                                <input type="email" id="mail" name="mail"  placeholder="Email" required="true"
+                                class="reg-input">
+                                <br>
+                                <input type="password" id="pass" name="pass" placeholder="Mật khẩu" required="true"
+                                class="reg-input">
+                                <br>
+                                <input type="password" id="repass" name="repass"  placeholder="Nhập lại mật khẩu" required="true"
+                                class="reg-input">
+                            </div>
+                          
+                                <p style="text-align: center;margin-left: 30px;margin-top: 0;">Bằng việc đăng kí, bạn đã đồng ý với chúng tôi về<br><a href="" style="color: yellow;">Điều khoản dịch vụ</a> và <a href="" style="color: yellow;">Chính sách bảo mật</a></p>
+                                <button class="bnt">ĐĂNG KÍ</button>
+                                <p style="margin-left: 165px;font-size: 1.4rem;font-weight: bold;margin-top: 10px;margin-bottom: 10px;">HOẶC</p>
+                                <hr style="margin-left: 30px;">
+                            <div class="reg-link">
+                                <a  href=""><img style="width: 15px;height: 15px;" src="/IMAGES/google.png" alt=""> GOOGLE</a>
+                            </div> 
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+    </div> 
+    <!-- ĐĂNG KÍ -->
+    <div class="registration">
+        <div class="modal"  id="form-regis">
+            <div class="modal-overlay"></div>
+           <div class="modal-body1">
+               <div class="modal-body-content">
+                   <div class="head-form">
+                       <a style="position: absolute;text-decoration: none;
+                       font-size: 2.4rem;color: #ffffff;top: 1px; right: 4px;" href="#">&times;</a>
+                       <p class="head-form-log">ĐĂNG NHẬP</p>
+                       <a href="#form-login" class="head-form-reg" style="box-sizing: border-box;padding-right : 25px;"><span style="font-size: 1.1rem;color: #ffffff;">Bạn chưa có tài khoản ? </span> ĐĂNG KÍ</a>
+                   </div>
+                   <div class="content-reg">
+                       <div class="group-input">
+                           <input type="email" id="mail" name="mail"  placeholder="Email" required="true"
+                           class="reg-input">
+                           <br>
+                           <input type="password" id="pass" name="pass" placeholder="Mật khẩu" required="true"
+                           class="reg-input">
+                       </div>
+                           <button class="bnt">ĐĂNG NHẬP</button>
+                           <p style="margin-left: 165px;font-size: 1.4rem;font-weight: bold;margin-top: 10px;margin-bottom: 10px;">HOẶC</p>
+                           <hr style="margin-left: 30px;">
+                       <div class="reg-link">
+                           <a  href=""><img style="width: 15px;height: 15px;" src="/IMAGES/google.png" alt=""> GOOGLE</a>
+                       </div> 
+                   </div>
+               </div>
+           </div> 
+       </div> 
+    </div>
+</div>
+</body>
+</html>
